@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rfc:BAPI_CUSTOMER_GETDETAIL2 xmlns:rfc="urn:sap-com:document:sap:rfc:functions">
+    <CUSTOMERNO>0000100492</CUSTOMERNO>
+    <COMPANYCODE>1000</COMPANYCODE>
+</rfc:BAPI_CUSTOMER_GETDETAIL2>

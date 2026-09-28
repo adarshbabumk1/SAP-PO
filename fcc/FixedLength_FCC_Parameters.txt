@@ -12,7 +12,7 @@ Communication Channel Parameters (Processing Tab -> Conversion Parameters):
 --------------------------------------------------------------------------------
 
 Document Name:                  MT_Orders_Positional
-Document Namespace:             urn:enterprise:sap:orders
+Document Namespace:             urn:sap:integration:orders
 Document Offset:                0
 
 Recordset Name:                 Orders

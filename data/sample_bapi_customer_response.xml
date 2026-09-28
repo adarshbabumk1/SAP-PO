@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rfc:BAPI_CUSTOMER_GETDETAIL2.Response xmlns:rfc="urn:sap-com:document:sap:rfc:functions">
+    <CUSTOMER_ADDRESS>
+        <CUSTOMER>0000100492</CUSTOMER>
+        <NAME>Global Logistics GmbH</NAME>
+        <CITY>Hamburg</CITY>
+        <POSTL_COD1>20457</POSTL_COD1>
+        <STREET>Am Sandtorkai 48</STREET>
+        <COUNTRY>DE</COUNTRY>
+        <LANGU>D</LANGU>
+    </CUSTOMER_ADDRESS>
+    <RETURN>
+        <TYPE>S</TYPE>
+        <ID>FI</ID>
+        <NUMBER>000</NUMBER>
+        <MESSAGE>Customer details retrieved successfully</MESSAGE>
+    </RETURN>
+</rfc:BAPI_CUSTOMER_GETDETAIL2.Response>

@@ -1,0 +1,32 @@
+================================================================================
+SAP PO 7.5 File Content Conversion (FCC) Cheat-Sheet: Fixed-Length Positional to XML
+================================================================================
+
+Sample File Layout:
+H0001ACME CORP           20260928
+D0001001MAT-99881000000000025000EA
+T000100001000000000025000
+
+--------------------------------------------------------------------------------
+Communication Channel Parameters (Processing Tab -> Conversion Parameters):
+--------------------------------------------------------------------------------
+
+Document Name:                  MT_Orders_Positional
+Document Namespace:             urn:enterprise:sap:orders
+Document Offset:                0
+
+Recordset Name:                 Orders
+Recordset Structure:            Header,1,Detail,*,Trailer,1
+Recordset Sequence:             Ascending
+
+Header.fieldFixedLengths:       1,4,20,8
+Header.fieldNames:              RecordType,DocNum,VendorName,PostDate
+Header.endSeparator:            'nl'
+
+Detail.fieldFixedLengths:       1,4,3,10,13,2
+Detail.fieldNames:              RecordType,DocNum,ItemNum,Material,Quantity,UoM
+Detail.endSeparator:            'nl'
+
+Trailer.fieldFixedLengths:      1,4,5,16
+Trailer.fieldNames:             RecordType,DocNum,TotalRecords,TotalAmount
+Trailer.endSeparator:           'nl'

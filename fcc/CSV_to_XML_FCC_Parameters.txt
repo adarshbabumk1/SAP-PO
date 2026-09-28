@@ -1,0 +1,30 @@
+================================================================================
+SAP PO 7.5 File Content Conversion (FCC) Cheat-Sheet: CSV to XML (Sender Channel)
+================================================================================
+
+Target XML Structure:
+<MT_Orders>
+    <Record>
+        <OrderID>10001</OrderID>
+        <Customer>Acme Corp</Customer>
+        <Amount>2500.50</Amount>
+    </Record>
+</MT_Orders>
+
+--------------------------------------------------------------------------------
+Communication Channel Parameters (Processing Tab -> Conversion Parameters):
+--------------------------------------------------------------------------------
+
+Document Name:                  MT_Orders
+Document Namespace:             urn:enterprise:sap:orders
+Document Offset:                0
+
+Recordset Name:                 Orders
+Recordset Structure:            Record,*
+Recordset per Message:          0
+
+Record.fieldSeparator:          ,
+Record.endSeparator:            'nl'
+Record.fieldNames:              OrderID,Customer,Amount
+Record.missingLastFields:       ignore
+Record.additionalLastFields:    ignore

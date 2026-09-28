@@ -14,7 +14,7 @@ import java.nio.charset.StandardCharsets;
  * Performs real-time lookup into SAP ERP using JCo / SystemAccessor
  * through a configured RFC Communication Channel in Integration Directory.
  * 
- * @author Adarsh (SAP Integration Architect)
+ * @author Adarsh (Tech Lead - SAP Integration)
  */
 public class ValueMappingRFCLookup {
 

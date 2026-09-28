@@ -9,7 +9,7 @@ import java.util.Base64;
  * 
  * Execution Type: Single Value
  * 
- * @author Adarsh (SAP Integration Architect)
+ * @author Adarsh (Tech Lead - SAP Integration)
  */
 public class Base64EncoderUDF {
 

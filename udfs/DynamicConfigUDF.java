@@ -15,7 +15,7 @@ import com.sap.aii.mappingtool.tf7.rt.Container;
  * - Target File Directory Path
  * - Email Subject
  * 
- * @author Adarsh (SAP Integration Architect)
+ * @author Adarsh (Tech Lead - SAP Integration)
  */
 public class DynamicConfigUDF {
 
